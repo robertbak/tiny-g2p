@@ -121,10 +121,13 @@ only dependency in the project.
 The **code** is MIT (see `LICENSE`).
 
 The **model weights** are trained on the `polish_mfa` v2.0.0 pronunciation
-lexicon — McAuliffe & Sonderegger (2022), **CC BY 4.0**. They are compiled into
-this binary, so installing it redistributes something derived from that data,
-and the attribution travels with it. The code's licence does not say that, which
-is why it is said here.
+lexicon — McAuliffe & Sonderegger (2022),
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — taken from the
+[MFA models](https://github.com/MontrealCorpusTools/mfa-models) release. They
+are a trained derivative of that lexicon rather than the lexicon itself, and
+they are compiled into this binary, so installing it redistributes something
+derived from CC BY 4.0 data. The code's MIT licence does not say that, which is
+why it is said here.
 
 ## The exception dictionary
 
